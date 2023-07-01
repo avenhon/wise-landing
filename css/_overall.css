@@ -1,0 +1,15 @@
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.btn-reset {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}

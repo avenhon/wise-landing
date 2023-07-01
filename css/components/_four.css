@@ -1,0 +1,76 @@
+.four__section {
+  overflow-x: clip;
+}
+
+.four__section .container {
+  padding-left: 47px;
+  padding-right: 122px;
+}
+
+.four__info {
+  padding-top: 214px;
+  max-width: 690px;
+}
+
+.info__title {
+  padding-left: 27px;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
+
+.info__description {
+  max-width: 590px;
+  padding-left: 26px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 60px;
+}
+
+.four__link {
+  position: relative;
+  font-family: 'Plus Jakarta';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 7px 29px;
+}
+
+.four__link:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url(/img/right-arrow.svg);
+  top: 25%;
+  margin-left: 10px;
+}
+
+.four__img {
+  position: relative;
+  margin-left: 70px;
+  margin-top: 138px;
+}
+
+.four__image {
+  background-repeat: no-repeat;
+  width: 511px;
+  height: 511px;
+  background-image: url(/img/four__image.svg);
+}
+
+.four__background {
+  position: absolute;
+  width: 786px;
+  height: 824px;
+  background-image: url(/img/four__bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}

@@ -1,0 +1,76 @@
+.third__section {
+  overflow-x: clip;
+}
+
+.third__section .container {
+  padding-left: 89px;
+  padding-right: 68px;
+}
+
+.third__img {
+  position: relative;
+  margin-right: 105px;
+}
+
+.third__image {
+  width: 511px;
+  height: 511px;
+  background-image: url(/img/third__img.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.third__background {
+  position: absolute;
+  width: 902px;
+  height: 948px;
+  background-image: url(/img/third__bgeffect.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.third__main {
+  max-width: 667px;
+  padding-top: 117px;
+  padding-left: 27px;
+}
+
+.third__title {
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
+
+.third__description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  max-width: 590px;
+  margin-bottom: 60px;
+}
+
+.third__link {
+  position: relative;
+  font-family: 'Plus Jakarta';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 7px 29px;
+  margin-left: -29px;
+}
+
+.third__link:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url(/img/right-arrow.svg);
+  top: 25%;
+  margin-left: 10px;
+}

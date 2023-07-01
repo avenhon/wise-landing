@@ -1,0 +1,82 @@
+.five__section {
+  overflow-x: clip;
+  margin-bottom: 102px;
+  position: relative;
+}
+
+.five__background {
+  position: absolute;
+  width: 677px;
+  height: 983px;
+  background-image: url(/img/five__bgeffect.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 100%;
+  transform: translateY(-50%);
+  right: 0;
+  z-index: -1;
+}
+
+.five__section .container {
+  padding-left: 74px;
+  padding-right: 60px;
+}
+
+.five__info {
+  max-width: 660px;
+  padding-top: 80px;
+  margin-right: 75px;
+}
+
+.five__title {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 56px;
+  margin-bottom: 23px;
+}
+
+.five__description {
+  max-width: 590px;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 58px;
+}
+
+.five__link {
+  position: relative;
+  font-family: 'Plus Jakarta';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  padding-right: 28px;
+}
+
+.five__link:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url(/img/right-arrow.svg);
+  top: 10%;
+  margin-left: 10px;
+}
+
+.five__faces {
+  align-items: center;
+}
+
+.face {
+  padding-top: 40px;
+  width: 156px;
+  height: 156px;
+  margin-right: 50px;
+}
+
+.face:last-child {
+  margin-right: 0;
+}
+
+.face img {
+  border-radius: 50%;
+}

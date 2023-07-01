@@ -1,0 +1,45 @@
+.header .container {
+  padding: 20px 82px 0 61px;
+}
+
+.nav {
+  justify-content: space-between;
+}
+
+.logo {
+  padding-top: 14px;
+  width: 154px;
+  height: 34px;
+}
+
+.nav__list {
+  justify-content: space-between;
+  margin-right: 1%;
+  width: 404px;
+  padding-top: 17px;
+}
+
+.nav__item {
+  height: 22px;
+}
+
+.nav__list .nav__item:nth-child(2n) {
+  padding-left: 17px;
+}
+
+.header__button {
+  width: 123px;
+  height: 52px;
+  background-color: var(--accent-color);
+  border-radius: 10px;
+  font-family: 'Plus Jakarta';
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.burger {
+  display: none;
+  width: 48px;
+  height: 48px;
+  fill: white;
+}

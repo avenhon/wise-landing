@@ -1,0 +1,141 @@
+.first__section .container {
+  padding: 68px 0 0 70px;
+  display: flex;
+}
+
+.first__section {
+  margin-bottom: 215px;
+  overflow-x: clip;
+}
+
+.first__information {
+  padding-top: 107px;
+}
+
+.information__caption {
+  font-family: 'Noto Sans';
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 8px;
+  margin-bottom: 18px;
+  color: var(--gray-color);
+}
+
+.information__title {
+  max-width: 673px;
+  padding-left: 2px;
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 70px;
+  margin-bottom: 21.5px;
+}
+
+.information__description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: var(--gray-color);
+  margin-bottom: 32px;
+}
+
+.first__buttons {
+  padding-left: 2px;
+  margin-bottom: 50px;
+}
+
+.get-started__button {
+  width: 151px;
+  height: 52px;
+  background-color: var(--accent-color);
+  border-radius: 10px;
+  font-family: 'Plus Jakarta';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 9.8px;
+}
+
+.demo__button {
+  width: 149px;
+  height: 52px;
+  color: var(--white-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 10px;
+  font-family: 'Plus Jakarta';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.first__img {
+  position: relative;
+  width: 627px;
+}
+
+.first__bg {
+  width: 905px;
+  height: 948px;
+  background-image: url(/img/first__bgeffect.webp);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 36%;
+  transform: translate(-50%, -50%);
+}
+
+.first__image {
+  width: 627px;
+  height: 627px;
+  background-image: url(/img/first__img.svg);
+}
+
+.sponsors__title {
+  font-family: 'Plus Jakarta';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.sponsors__list {
+  align-items: center;
+  padding-top: 66px;
+}
+
+.sponsor {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sponsor:not(:last-child) {
+  margin-right: 60px;
+}
+
+.figma {
+  width: 33px;
+  height: 50px;
+  background-image: url(/img/figma.svg);
+}
+
+.stripe {
+  width: 88px;
+  height: 37px;
+  background-image: url(/img/stripe.svg);
+}
+
+.puma {
+  margin-top: -19px;
+  margin-left: -4px;
+  width: 94px;
+  height: 44px;
+  background-image: url(/img/puma.svg);
+}
+
+.reddit {
+  margin-top: -5px;
+  margin-left: -3px;
+  width: 38px;
+  height: 36px;
+  background-image: url(/img/reddit.svg);
+}
